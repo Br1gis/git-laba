@@ -4,3 +4,7 @@ b = int(input("Enter 2 num: "))
 print(f"Result: {a/b}")
 print(f"Result of /: {a/b}")
 print(f"Result of *: {a*b}")
+<<<<<<< HEAD
+=======
+print(f"Result of +: {a+b}")
+>>>>>>> eab78a9 (C5: Added plus operation)
