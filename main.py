@@ -1,10 +1,16 @@
 print('Something is started...')
 a = int(input("Enter 1 num: "))
 b = int(input("Enter 2 num: "))
-print(f"Result: {a/b}")
-print(f"Result of /: {a/b}")
-print(f"Result of *: {a*b}")
-<<<<<<< HEAD
-=======
-print(f"Result of +: {a+b}")
->>>>>>> eab78a9 (C5: Added plus operation)
+operation = input("Enter operation: ")
+if operation == '+':
+    print(a + b)
+elif operation == '-':
+    print(a - b)
+elif operation == '*':
+    print(a * b)
+elif operation == '/':
+    if b != 0:
+        print(a / b)
+    else:
+        print('Scha kak dam po rukam')
+
